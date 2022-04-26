@@ -255,13 +255,15 @@ canvas {
     font-weight: 800;
 }
 
-.dashboard {
+.dashboard, .calculator, .stake {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 45vw;
     gap: 30px;
 }
+
+
 
 .entry {
     width: 100%;
@@ -945,7 +947,7 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
         padding: 10px;
     }
 
-    .dashboard {
+    .dashboard, .calculator {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
@@ -1088,6 +1090,7 @@ input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
 
     .calculator {
         width: 83vw;
+        padding-left: 20vw;
     }
 
     .bottom_statistics {
