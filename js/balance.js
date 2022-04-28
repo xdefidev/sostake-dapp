@@ -14,7 +14,7 @@
 //     // document.getElementById("input").value = Number(format).toFixed(4);
 // }
 
-let reward = 0.0002233;
+let reward = 0.0002826;
 let price = document.getElementById("input_price").innerHTML;
 let tokens = document.getElementById("input").value;
 
@@ -30,7 +30,7 @@ function calculateReturns() {
 
     document.getElementById("import_reward").innerHTML = (reward * input_value).toFixed(3);
     document.getElementById("next_reward").innerHTML = (reward * input_value).toFixed(4);
-    document.getElementById("roi_5_reward").innerHTML = "$" + ((Number(format) * 1.131257 * price) / Math.pow(10, 1)).toFixed(2);
+    document.getElementById("roi_5_reward").innerHTML = "$" + ((Number(format) * 1.45256 * price) / Math.pow(10, 1)).toFixed(2);
 
     document.getElementById("totalusd").innerHTML = "$ " + (Number(tokens * price) / Math.pow(10, 13)).toFixed(2);
 }
