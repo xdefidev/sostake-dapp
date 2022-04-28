@@ -7,7 +7,7 @@ const stakingContract = "0x8636738D198215d3a3FE2a0cddC481B2480f652f";
 const decimals = 18;
 let format = 0;
 let fameFormat = 0;
-let reward = 0.0002233;
+let reward = 0.0002826;
 const dailyPercent = 0.021666;
 
 const minABI = [{
